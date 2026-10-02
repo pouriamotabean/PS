@@ -10,7 +10,8 @@ add_subdirectory(JUCE)
 juce_add_gui_app(PS
     PRODUCT_NAME "PS"
     COMPANY_NAME "Pouria Motabean"
-    ICON_BIG ""
+    ICON_BIG "Assets/Icon.png"
+    ICON_SMALL "Assets/Icon.png"
     VERSION 1.0.0
 )
 
