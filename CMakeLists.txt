@@ -21,6 +21,9 @@ target_sources(PS PRIVATE
     Source/MainComponent.cpp
     Source/LoudnessMeter.cpp
     Source/SpotifyProcessor.cpp
+    Source/SegmentedControl.cpp
+    Source/ResultsPanel.cpp
+    Source/PSLookAndFeel.cpp
 )
 
 target_compile_definitions(PS PRIVATE
